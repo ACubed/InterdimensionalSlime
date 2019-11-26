@@ -1,5 +1,7 @@
-# PegJam2019
+# Inter-dimensional Slime
  Peg Jam is a local Game Jam in Winnipeg, this project was created during this project in a group of 4. [Members: Arvind Maan, Andy Tan, Aaron Salo, Caden Chabot] This was the first game jam for all of us and was a great experience.
+ 
+ The game is published on itch.io (an indie game publishing site) at https://cadenchabot.itch.io/slimejam
 
 The theme for this project was Parallel Worlds.
 After much ideation, our idea was to create a platformer of a hero that exists in 3 worlds: the shared world, the green world and the purple world.
