@@ -1,5 +1,5 @@
 # Inter-dimensional Slime
- Peg Jam is a local Game Jam in Winnipeg, this project was created during this project in a group of 4. [Members: Arvind Maan, Andy Tan, Aaron Salo, Caden Chabot] This was the first game jam for all of us and was a great experience.
+ Peg Jam is a local Game Jam in Winnipeg, this project was created during this project in a group of 4. This was the first game jam for all of us and was a great experience.
  
  The game is published on itch.io (an indie game publishing site) at https://cadenchabot.itch.io/slimejam
 
