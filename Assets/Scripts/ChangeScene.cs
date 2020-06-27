@@ -19,15 +19,10 @@ public class ChangeScene : MonoBehaviour
 
         if (levelComplete)
         {
-            if (canvas.alpha < 1f)
-            {
-                canvas.alpha += 0.01f;
-            }
+            if (canvas.alpha < 1f) canvas.alpha += 0.01f;
             else
             {
                 int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
-                Debug.Log(nextSceneIndex + " k");
-                Debug.Log(SceneManager.sceneCountInBuildSettings + " 2");
                 if (SceneManager.sceneCountInBuildSettings > nextSceneIndex) SceneManager.LoadScene(nextSceneIndex);
             }
             
