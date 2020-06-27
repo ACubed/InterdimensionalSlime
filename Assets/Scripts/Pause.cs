@@ -8,11 +8,6 @@ public class Pause : MonoBehaviour
 {
     public static bool paused = false;
     public GameObject pauseUI;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
