@@ -13,7 +13,7 @@ public class LockToFriend : MonoBehaviour
     {
         //the distance between me and my friend
 
-        if (Input.GetButtonDown("Fire1") && Vector2.Distance(transform.position, friend.transform.position) <= 3f)
+        if (Time.timeScale > 0 && Input.GetButtonDown("Fire1") && Vector2.Distance(transform.position, friend.transform.position) <= 3f)
         {
             if (!locked)
             {
