@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Testing/SceneSwitch-Boxes.unity
     guid: 91f9199308e9c3649b7fe5fd9acb2f06
   - enabled: 1
-    path: Assets/Scenes/Levels/Level1.unity
+    path: Assets/Scenes/Level1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Levels/Level2.unity
@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Level5.unity
     guid: 1c489c0247079574fb45a3e2a8640267
+  - enabled: 1
+    path: Assets/Scenes/Menus/Help.unity
+    guid: 25411a46617f21f45b7921296c9d01af
   m_configObjects: {}

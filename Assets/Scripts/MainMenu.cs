@@ -6,24 +6,12 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void StartGame()
     {
         SceneManager.LoadScene("Level1", LoadSceneMode.Single);
     }
 
-    public static void Quit()
+    public void Quit()
     {
         Application.Quit();
     }
@@ -33,8 +21,8 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Level Select", LoadSceneMode.Single);
     }
 
-    public void Continue()
+    public void Help()
     {
-        Debug.Log("continue the game from save");
+        SceneManager.LoadScene("Help", LoadSceneMode.Single);
     }
 }
