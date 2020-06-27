@@ -8,7 +8,10 @@ public class Pause : MonoBehaviour
 {
     public static bool paused = false;
     public GameObject pauseUI;
-
+    void Start() 
+    {
+        Resume();
+    }
     // Update is called once per frame
     void Update()
     {
