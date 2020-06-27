@@ -263,7 +263,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 15
+  orthographic size: 11
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -499,18 +499,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 162167806}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &162167809 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2835167367052994324, guid: ea199bd7cc76a4f819da99a0d88611b5,
-    type: 3}
-  m_PrefabInstance: {fileID: 162167806}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07100b55a4f79e149b0b9af1acec72a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &247426550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1024,7 +1012,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 560627372390b6d43862024c57c8874f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hero: {fileID: 162167809}
 --- !u!61 &1019837992
 BoxCollider2D:
   m_ObjectHideFlags: 0
